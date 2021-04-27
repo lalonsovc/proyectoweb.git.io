@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+div {
+    border-top-width: 10px;
+    border-right-width: 1em;
+    border-bottom-width: thick;
+    border-left-width: thin;
+}
+#input-search{
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    text-indent: 10px;
+}
+#input-button{
+    width: 100%;
+    height: 60px;
+    background: #018d5e;
+    padding: 10px;
+}
+#button-categoria{
+    width: 100%;
+    height: 30px;
+    background: #ffffff;
+    padding: 1px;
+    font-size: 15px;
+}
+#button-ofertas{
+    width: 100%;
+    height: 30px;
+    background: #ffffff;
+    padding: 1px;
+    font-size: 15px;
+    
+}
+#button-historial{
+    width: 100%;
+    height: 30px;
+    background: #ffffff;
+    padding: 1px;
+    font-size: 15px;
+    
+}
+#button-tienda{
+    width: 100%;
+    height: 30px;
+    background: #ffffff;
+    padding: 1px;
+    font-size: 15px;
+}
+#button-vender{
+    width: 100%;
+    height: 30px;
+    background: #ffffff;
+    padding: 1px;
+    font-size: 15px;
+}
+#button-ayuda{
+    width: 100%;
+    height: 30px;
+    background: #ffffff;
+    padding: 1px;
+    font-size: 15px;
+    
+}
+#button-compras{
+    width: 100%;
+    height: 30px;
+    background: #ffffff;
+    padding: 1px;
+    font-size: 15px;
+    
+}
+.content-search{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    background: rgba(0,0,0,0.3);
+    display: none;
+}
+#input-comprar{
+    width: 100%;
+    height: 40px;
+    background: #0586E6;
+    padding: 1px;
+    font-size: 15px;
+}
+#pro-1{
+    border-top: #018d5e;
+    border-bottom: #018d5e;
+    border-left: #0586E6;
+    border-right: #0586E6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
