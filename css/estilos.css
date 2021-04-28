@@ -4,12 +4,6 @@
     box-sizing: border-box;
     font-family: arial;
 }
-div {
-    border-top-width: 10px;
-    border-right-width: 1em;
-    border-bottom-width: thick;
-    border-left-width: thin;
-}
 #input-search{
     width: 300px;
     height: 40px;
@@ -73,16 +67,6 @@ div {
     background: #ffffff;
     padding: 1px;
     font-size: 15px;
-    
-}
-.content-search{
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    top: 60px;
-    left: 0;
-    background: rgba(0,0,0,0.3);
-    display: none;
 }
 #input-comprar{
     width: 100%;
@@ -92,11 +76,58 @@ div {
     font-size: 15px;
 }
 #pro-1{
-    border-top: #018d5e;
-    border-bottom: #018d5e;
-    border-left: #0586E6;
-    border-right: #0586E6;
+    position: absolute;  
+    bottom: 730px;  
+    right: 0;
+    left: 500px;
+    width: 500px;  
+    height: 216px;  
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
 }
+#pro-2{
+    position: absolute;  
+    bottom: 730px;  
+    right: 0;
+    left: 1040px;
+    width: 500px;  
+    height: 216px;  
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+}
+#pro-3{
+    position: absolute;  
+    bottom: 480px;  
+    right: 0;
+    left: 500px;
+    width: 500px;  
+    height: 216px;  
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+}
+#pro-4{
+    position: absolute;  
+    bottom: 480px;  
+    right: 0;
+    left: 1040px;
+    width: 500px;  
+    height: 216px;  
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+}
+#categoria-pro{
+    position: absolute;  
+    top: 235px;
+    right: 1622.8px;
+    width: 280px;  
+    height: 100%;  
+    background-color: #13D7E4;
+    border: 3px solid black;
+}
+.cat{
+    color: blue;
+}
+
 
 
 
